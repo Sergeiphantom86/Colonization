@@ -1,40 +1,27 @@
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Spawner<T> : MonoBehaviour where T : MonoBehaviour
 {
-    [SerializeField] private List<T> _objectsPrefab;
-    [SerializeField] protected int PoolCapacity;
-    [SerializeField] private int _poolMaxSize;
-
-    private Pool<T> _pool;
+    [SerializeField] private T _prefab;
+    private ObjectPool<T> _pool;
 
     protected virtual void Awake()
     {
-        _pool = new Pool<T>(
-            () => Instantiate(_objectsPrefab[GetIndexOfObject()]));
+        _pool = new ObjectPool<T>(CreateItem);
     }
 
-    public virtual T Spawn(Vector3 position)
+    public T Spawn(Vector3 position)
     {
-        T item = _pool.GetObject();
+        var item = _pool.Get();
         item.transform.position = position;
+        item.gameObject.SetActive(true);
         return item;
     }
 
-    protected virtual void OnObjectDestroyed(T item)
+    private T CreateItem()
     {
-        _pool.Release(item);
+        var item = Instantiate(_prefab);
         item.gameObject.SetActive(false);
-    }
-
-    private int GetIndexOfObject()
-    {
-        if (_objectsPrefab.Count > 1)
-        {
-            return Random.Range(0, _objectsPrefab.Count);
-        }
-
-        return 0;
+        return item;
     }
 }
