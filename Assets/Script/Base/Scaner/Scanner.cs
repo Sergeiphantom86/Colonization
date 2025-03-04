@@ -63,7 +63,7 @@ public class Scanner : MonoBehaviour
     private void ProcessResources(List<Resource> resources, int requiredAmount)
     {
         int countToProcess = Mathf.Min(requiredAmount, resources.Count);
-        Debug.Log(resources.Count);
+        
         for (int i = 0; i < countToProcess; i++)
         {
             if (resources[i].IsAvailable)
