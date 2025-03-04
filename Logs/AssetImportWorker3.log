@@ -1,0 +1,1385 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.30f1 (70558241b701) revision 7361922'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'ru' Physical Memory: 32525 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.30f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Pro/Сolonization
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+49908
+Successfully changed project path to: C:/Pro/Сolonization
+C:/Pro/Сolonization
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8808] Host "[IP] 192.168.0.136 [Port] 0 [Flags] 2 [Guid] 2157967429 [EditorId] 2157967429 [Version] 1048832 [Id] WindowsEditor(7,PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8808] Host "[IP] 192.168.0.136 [Port] 0 [Flags] 2 [Guid] 2157967429 [EditorId] 2157967429 [Version] 1048832 [Id] WindowsEditor(7,PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
+Refreshing native plugins compatible for Editor in 14.10 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.30f1 (70558241b701)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Pro/Сolonization/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 Ti (ID=0x1b06)
+    Vendor:   NVIDIA
+    VRAM:     11107 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56576
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.010393 seconds.
+- Loaded All Assemblies, in  0.317 seconds
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 272 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.573 seconds
+Domain Reload Profiling: 889ms
+	BeginReloadAssembly (89ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (140ms)
+		LoadAssemblies (88ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (136ms)
+			TypeCache.Refresh (135ms)
+				TypeCache.ScanAssembly (121ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (573ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (521ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (377ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (100ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.764 seconds
+Refreshing native plugins compatible for Editor in 5.79 ms, found 7 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.652 seconds
+Domain Reload Profiling: 1412ms
+	BeginReloadAssembly (138ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (551ms)
+		LoadAssemblies (398ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (233ms)
+			TypeCache.Refresh (197ms)
+				TypeCache.ScanAssembly (174ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (652ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (496ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (324ms)
+			ProcessInitializeOnLoadMethodAttributes (74ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 9.26 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6078 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 96 unused Assets / (349.0 KB). Loaded Objects now: 6551.
+Memory consumption went from 241.2 MB to 240.8 MB.
+Total: 8.283600 ms (FindLiveObjects: 1.716300 ms CreateObjectMapping: 0.559900 ms MarkObjects: 5.265100 ms  DeleteObjects: 0.738900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5079.397593 seconds.
+  path: Assets/Toon Crystals pack/Textures/SmallCrystal_Green.tga
+  artifactKey: Guid(a46340c78bd212c42b56501606e9836b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Toon Crystals pack/Textures/SmallCrystal_Green.tga using Guid(a46340c78bd212c42b56501606e9836b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cdf57fd4767664627ad6105eaacc8d1a') in 0.223492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Prefab/Tom's Terrain Tools/Example AutoMagic/Terrain-297665599-grassmap.tiff
+  artifactKey: Guid(68c584c6bc9344c9eaa6a2ba27b0427f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Tom's Terrain Tools/Example AutoMagic/Terrain-297665599-grassmap.tiff using Guid(68c584c6bc9344c9eaa6a2ba27b0427f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bc4013a71b9019c884597a3633e36169') in 0.024930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Prefab/Tom's Terrain Tools/Example Data/2Terrain_layer3.asset
+  artifactKey: Guid(22d90e109b8a6b44c88a64af0df14a72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Tom's Terrain Tools/Example Data/2Terrain_layer3.asset using Guid(22d90e109b8a6b44c88a64af0df14a72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2f63f8d4fe13f8051e04a723ae3d5f76') in 0.046956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Prefab/Tom's Terrain Tools/Example Data/1Terrain.asset
+  artifactKey: Guid(ff6a60357cd5c9d43a07d90aca24ab65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Tom's Terrain Tools/Example Data/1Terrain.asset using Guid(ff6a60357cd5c9d43a07d90aca24ab65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'aadc72a29b4595e15f0555ad5b7761de') in 0.373534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 60
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Toon Crystals pack/Meshes/PurpCrystal00.fbx
+  artifactKey: Guid(0182e814e0408fe43b26cd6a3619c8d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Toon Crystals pack/Meshes/PurpCrystal00.fbx using Guid(0182e814e0408fe43b26cd6a3619c8d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f97bd98219330f9812a7233b526dc92c') in 0.067754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Script/Base/BotManager.cs
+  artifactKey: Guid(a79bfc905a9d80446ac2c632c94fbfdf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Script/Base/BotManager.cs using Guid(a79bfc905a9d80446ac2c632c94fbfdf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9ec839a2bc1b7e741de78dff448e61d2') in 0.012892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+  artifactKey: Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt using Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cd14edba338e2cc3bf1f6f3400fbb702') in 0.020976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Flag/flag1/flag1_Roughness.png
+  artifactKey: Guid(47b76850d4e3ab047a40c04a21b77a9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Flag/flag1/flag1_Roughness.png using Guid(47b76850d4e3ab047a40c04a21b77a9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1070fd9edb0763ee28d6f534dc74e324') in 0.029271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Toon Crystals pack/Meshes/Obsidian00.fbx
+  artifactKey: Guid(5404b1d3857b194469d08e0964a1ce15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Toon Crystals pack/Meshes/Obsidian00.fbx using Guid(5404b1d3857b194469d08e0964a1ce15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '60028541e01b2020a61151bdfefaf320') in 0.026917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Toon Crystals pack/Meshes/BlueCrystal06.fbx
+  artifactKey: Guid(e9433e43935478f4a939f7e4137e9b2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Toon Crystals pack/Meshes/BlueCrystal06.fbx using Guid(e9433e43935478f4a939f7e4137e9b2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd82efdd21b6cedee059c824d77e6160e') in 0.034553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Prefab/Mountain Terrain rocks and tree/Collision/collision_rock_set_01.fbx
+  artifactKey: Guid(52386f3dbec71df48808085b99a4ca1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Mountain Terrain rocks and tree/Collision/collision_rock_set_01.fbx using Guid(52386f3dbec71df48808085b99a4ca1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '053aec4c6f45da991515ea40e22d1a06') in 0.018257 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Toon Crystals pack/Textures/MoonStone_normals.tga
+  artifactKey: Guid(b324ac5297e97044bb5b8cd5b19d7abe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Toon Crystals pack/Textures/MoonStone_normals.tga using Guid(b324ac5297e97044bb5b8cd5b19d7abe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6407e436d6942498fd6315e23e471494') in 0.022793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.047693 seconds.
+  path: Assets/Prefab/Tom's Terrain Tools/Example Data/3Terrain.asset
+  artifactKey: Guid(2a8dad2d87b8f3c49bb11170440e168f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Tom's Terrain Tools/Example Data/3Terrain.asset using Guid(2a8dad2d87b8f3c49bb11170440e168f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ed7749cf1fed0c78d5b800ca0fa977f5') in 0.063770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 60
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs
+  artifactKey: Guid(2787a46a4dc848c1b4b7b9307b614bfd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs using Guid(2787a46a4dc848c1b4b7b9307b614bfd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bc97371cef97193b274bd2a6d8583ed2') in 0.012517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat
+  artifactKey: Guid(c719e38f25a9480abd2480ab621a2949) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat using Guid(c719e38f25a9480abd2480ab621a2949) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a0f71a7cb38de9677debd2df62a84df4') in 0.039823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs
+  artifactKey: Guid(dc20866c0d5e413ab7559440e15333ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs using Guid(dc20866c0d5e413ab7559440e15333ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd6d87e1a568a9c896c51af685f66d025') in 0.013192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Prefab/Tom's Terrain Tools/Scripts/KeepOnSurface.cs
+  artifactKey: Guid(9a355555949fb5a42a2d2b6b5c6cf0c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Tom's Terrain Tools/Scripts/KeepOnSurface.cs using Guid(9a355555949fb5a42a2d2b6b5c6cf0c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6128ef9c3d0f330fe307a6a57a349ce9') in 0.013923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/13 - Soft Hyphenation.unity
+  artifactKey: Guid(875684baf40f4d008ce806d03e2a81b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/13 - Soft Hyphenation.unity using Guid(875684baf40f4d008ce806d03e2a81b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ddbfe4859f26376bc3352e590ab59ef4') in 0.011499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Prefab/Tom's Terrain Tools/Example Data/TerrainExample3.asset
+  artifactKey: Guid(deef0f88182e9e849ac67bef434c5277) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Tom's Terrain Tools/Example Data/TerrainExample3.asset using Guid(deef0f88182e9e849ac67bef434c5277) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) The tree Alder must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.Search.AssetIndexer:IndexProperties (int&,string&,bool&)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Modules\Terrain\Public\TreeDatabase.cpp line 337]
+
+ -> (artifact id: 'cb279daa7e4f6636fc8fd7e16b2d61f4') in 0.114662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 2.prefab
+  artifactKey: Guid(fdad9d952ae84cafb74c63f2e694d042) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 2.prefab using Guid(fdad9d952ae84cafb74c63f2e694d042) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9046a3933d40c3059fab55f22d8dc5f5') in 0.135889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Script/Bot/BotStateMachine/BotStateMachine.cs
+  artifactKey: Guid(c363972531d68e94788937d0cdb21350) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Script/Bot/BotStateMachine/BotStateMachine.cs using Guid(c363972531d68e94788937d0cdb21350) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '815642fb28328ccf255a5e41e6eaba22') in 0.011439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Script/Bot/BotStateMachine/BotState.cs
+  artifactKey: Guid(f0190483735f1af49a7bf389a9fe65e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Script/Bot/BotStateMachine/BotState.cs using Guid(f0190483735f1af49a7bf389a9fe65e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '132bbf3ba0adea556942f1847ffe0ac3') in 0.014002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/10 - Bullets & Numbered List Example.unity
+  artifactKey: Guid(c3f814e1d12c45568daf3dd9a86a0e61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/10 - Bullets & Numbered List Example.unity using Guid(c3f814e1d12c45568daf3dd9a86a0e61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '36156fb0923b0e8ce4860ec52b0ff2c1') in 0.011026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Prefab/Tom's Terrain Tools/Example Data/7-grassmap.tif
+  artifactKey: Guid(0f312a0c98e8e8a488620e042ac61657) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Tom's Terrain Tools/Example Data/7-grassmap.tif using Guid(0f312a0c98e8e8a488620e042ac61657) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6876874d650c45873eef90f959a9362a') in 0.030224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Prefab/Tom's Terrain Tools/Example Data/7-treemap.tif
+  artifactKey: Guid(305857cf5761c8f428ec249f42001b5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Tom's Terrain Tools/Example Data/7-treemap.tif using Guid(305857cf5761c8f428ec249f42001b5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '467714442e96517bf3acb5fed416c453') in 0.027181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.090400 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshSpawner.cs
+  artifactKey: Guid(76c11bbcfddf44e0ba17d6c2751c8d84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshSpawner.cs using Guid(76c11bbcfddf44e0ba17d6c2751c8d84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bafda378472a3c68194c48f505367e1c') in 0.011054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Prefab/Mountain Terrain rocks and tree/3d model/Rock/rock_set_03.fbx
+  artifactKey: Guid(b425921fa4ac27b40a9228c338761926) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Mountain Terrain rocks and tree/3d model/Rock/rock_set_03.fbx using Guid(b425921fa4ac27b40a9228c338761926) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cb94a50d1c4f71d4f4cfcec8d80abf9f') in 0.020488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextInfoDebugTool.cs
+  artifactKey: Guid(21256c5b62f346f18640dad779911e20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextInfoDebugTool.cs using Guid(21256c5b62f346f18640dad779911e20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '54a3d9308f582f4c9d3dd3a4b2b075a8') in 0.015092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Prefab/Charttyp/Stylized fantasy pagan village/Meshes/Branch_1.fbx
+  artifactKey: Guid(c51cb65e468f4aa4ca01ded3c255c885) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Charttyp/Stylized fantasy pagan village/Meshes/Branch_1.fbx using Guid(c51cb65e468f4aa4ca01ded3c255c885) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd1bb871d73a4f8f639a76f22fbfa0b95') in 0.025304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Diagonal.psd
+  artifactKey: Guid(ed5290d8df18488780e2996b9b882f01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Diagonal.psd using Guid(ed5290d8df18488780e2996b9b882f01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a88858a80860e955d7807156d2a14568') in 0.028490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Prefab/Rocks and Boulders 2/Rocks/Prefabs/Rock1B.prefab
+  artifactKey: Guid(0f1e1518a80e562458930d8b2d0670d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Rocks and Boulders 2/Rocks/Prefabs/Rock1B.prefab using Guid(0f1e1518a80e562458930d8b2d0670d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '61352660b065b7e582b5dc3a26b6d05b') in 0.036644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Prefab/Charttyp/Stylized fantasy pagan village/Terrain/Ground_dirt_1.terrainlayer
+  artifactKey: Guid(1a385cbb699bda34c9e3cdd403046757) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Charttyp/Stylized fantasy pagan village/Terrain/Ground_dirt_1.terrainlayer using Guid(1a385cbb699bda34c9e3cdd403046757) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '57bd750912bf6dc4926f8f59c24fd5d0') in 0.039775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Prefab/Charttyp/Stylized fantasy pagan village/Prefabs/Fence_branches_1.prefab
+  artifactKey: Guid(e3c368a37f8ef2745b302df902aa839d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Charttyp/Stylized fantasy pagan village/Prefabs/Fence_branches_1.prefab using Guid(e3c368a37f8ef2745b302df902aa839d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a3befb6099d4571a5f7dcab312ce43a1') in 0.029749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Prefab/MaximeBrunoni/BridgesPack/Prefabs/Water.prefab
+  artifactKey: Guid(5659d1c9864d1a44fbbfa8bfe2d86628) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/MaximeBrunoni/BridgesPack/Prefabs/Water.prefab using Guid(5659d1c9864d1a44fbbfa8bfe2d86628) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6575bfaa84f356ae2fa3c7158478304b') in 0.018282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Prefab/MaximeBrunoni/BridgesPack/Documentation/documentation_BridgesPack.pdf
+  artifactKey: Guid(532d948bb119e604fab2e37cd41ce97e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/MaximeBrunoni/BridgesPack/Documentation/documentation_BridgesPack.pdf using Guid(532d948bb119e604fab2e37cd41ce97e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8d2393a4678ee5c7fb0d69ecbd0d5e26') in 0.010710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Mask Zig-n-Zag.psd
+  artifactKey: Guid(bb8dfcd263ad4eb383a33d74a720be6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Mask Zig-n-Zag.psd using Guid(bb8dfcd263ad4eb383a33d74a720be6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8e11d74e40fa84e9aba2c0c3bda595ca') in 0.030019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Prefab/Charttyp/Stylized fantasy pagan village/Texture/Ground_grass.png
+  artifactKey: Guid(8833a43f324649b419430e90c3e30a74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Charttyp/Stylized fantasy pagan village/Texture/Ground_grass.png using Guid(8833a43f324649b419430e90c3e30a74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0c717de09ef3ceea1553031d70e81662') in 0.027120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Prefab/Charttyp/Stylized fantasy pagan village/Prefabs/Flower_1.prefab
+  artifactKey: Guid(c1496b23b2527f243adc9846921daa9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Charttyp/Stylized fantasy pagan village/Prefabs/Flower_1.prefab using Guid(c1496b23b2527f243adc9846921daa9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '32b8e9a3ef157a21bd8e922fe9a5f4f7') in 0.021975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Prefab/Charttyp/Stylized fantasy pagan village/Meshes/House_1.fbx
+  artifactKey: Guid(778b4323b8b53d942a8e2263c166eec4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Charttyp/Stylized fantasy pagan village/Meshes/House_1.fbx using Guid(778b4323b8b53d942a8e2263c166eec4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1d95130ba70e78a18497d49a8782f899') in 0.202202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 639
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Prefab/Rocks and Boulders 2/Rocks/Prefabs/Rock5B.prefab
+  artifactKey: Guid(977e7278d3486f1489724a6d226b9ca0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Rocks and Boulders 2/Rocks/Prefabs/Rock5B.prefab using Guid(977e7278d3486f1489724a6d226b9ca0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'da97babc357dc57a1ab58910038f0761') in 0.040667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Prefab/Tom's Terrain Tools/Example Data/Terragen Sources/1.tgd
+  artifactKey: Guid(7a465653c75e044449e8deccc49f0601) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Tom's Terrain Tools/Example Data/Terragen Sources/1.tgd using Guid(7a465653c75e044449e8deccc49f0601) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fb3cc85a1211d7f855ce71c751a00c0f') in 0.013958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Prefab/Tom's Terrain Tools/Example Data/Tree_Textures/shadow.png
+  artifactKey: Guid(31686dbf49ce3d04e9d1d80dd4473b8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Tom's Terrain Tools/Example Data/Tree_Textures/shadow.png using Guid(31686dbf49ce3d04e9d1d80dd4473b8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '49850fb7a056137056735e6e998ec189') in 0.026162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Prefab/Tom's Terrain Tools/Unity Terrain Assets/Textures/DirtGrass_normal-png.png
+  artifactKey: Guid(72fd1ef7a88eda746b6a9cff48727aec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Tom's Terrain Tools/Unity Terrain Assets/Textures/DirtGrass_normal-png.png using Guid(72fd1ef7a88eda746b6a9cff48727aec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '63f52ce4f9c95d6152889826c6d027da') in 0.024172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Prefab/Rocks and Boulders 2/Rocks/Prefabs_snow/Rock1_grup3.prefab
+  artifactKey: Guid(8193811d456e8954ba1e1cc695b8b6f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Rocks and Boulders 2/Rocks/Prefabs_snow/Rock1_grup3.prefab using Guid(8193811d456e8954ba1e1cc695b8b6f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ae90675ba034d7700f2e62199d155fcb') in 0.022540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Prefab/Rocks and Boulders 2/Rocks/Prefabs_snow/Rock1_grup1.prefab
+  artifactKey: Guid(564ee2d9da8d5fa4ca9d1b7054064847) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Rocks and Boulders 2/Rocks/Prefabs_snow/Rock1_grup1.prefab using Guid(564ee2d9da8d5fa4ca9d1b7054064847) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5ad9929f902109c456644bb43fe2f452') in 0.025369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefab/Tom's Terrain Tools/2DTools/Scripts/Camera2DFollow.cs
+  artifactKey: Guid(a5e793e40246959489cacefe1423ae83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Tom's Terrain Tools/2DTools/Scripts/Camera2DFollow.cs using Guid(a5e793e40246959489cacefe1423ae83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dbe6bc997803f095adfe6df9ba15de35') in 0.010434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Prefab/Tom's Terrain Tools/Unity Terrain Assets/Textures/Forest Floor-png.png
+  artifactKey: Guid(e9bb9d772673c5c4aa4cced6b5d15918) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Tom's Terrain Tools/Unity Terrain Assets/Textures/Forest Floor-png.png using Guid(e9bb9d772673c5c4aa4cced6b5d15918) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ae25f0526eadc75376d35b8364082b9d') in 0.024891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Prefab/Rocks and Boulders 2/Rocks/Prefabs_snow/Rock1LOD_grup5.prefab
+  artifactKey: Guid(cc97f7d64a5146f49895148c51f018b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Rocks and Boulders 2/Rocks/Prefabs_snow/Rock1LOD_grup5.prefab using Guid(cc97f7d64a5146f49895148c51f018b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '161625c0871cb57a013e2d0728f8edf4') in 0.019772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Prefab/Tom's Terrain Tools/Example Data/Materials/Tree_Bark1.mat
+  artifactKey: Guid(d318bcc1b95bf8a4f9e01c8e849f04d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Tom's Terrain Tools/Example Data/Materials/Tree_Bark1.mat using Guid(d318bcc1b95bf8a4f9e01c8e849f04d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '26ec30f52c56d6568d27c7ad7df82ede') in 0.032862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Prefab/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab
+  artifactKey: Guid(dceeca3e930a413458913fd2f889e527) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Rocks and Boulders 2/Rocks/Prefabs/Rock1LOD_grup2.prefab using Guid(dceeca3e930a413458913fd2f889e527) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f5c98618ba64318e19ae475d3eb99abd') in 0.019110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Prefab/Rocks and Boulders 2/Rocks/Prefabs/Rock1_grup3.prefab
+  artifactKey: Guid(f20a15ee7150fd647af421022dde4d44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Rocks and Boulders 2/Rocks/Prefabs/Rock1_grup3.prefab using Guid(f20a15ee7150fd647af421022dde4d44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ed992df845492e550e3cd9ca9c822256') in 0.016172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Prefab/Rocks and Boulders 2/Rocks/Prefabs_snow/Rock1D.prefab
+  artifactKey: Guid(805c67df44184af4397411e0ea8b8c50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Rocks and Boulders 2/Rocks/Prefabs_snow/Rock1D.prefab using Guid(805c67df44184af4397411e0ea8b8c50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3a05374e3be81360724ce7b6ab518f9d') in 0.021933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Prefab/Tom's Terrain Tools/Example Data/Materials/TTTExampleSkyBox.mat
+  artifactKey: Guid(9d2f79ae6f5ab4a458516e3bdc5c1ff6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Tom's Terrain Tools/Example Data/Materials/TTTExampleSkyBox.mat using Guid(9d2f79ae6f5ab4a458516e3bdc5c1ff6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ce627e4c8368e15694ebe378439b5418') in 0.022465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Prefab/Tom's Terrain Tools/Example Data/Trees/SampleTree3.prefab
+  artifactKey: Guid(f139f38e8a844de4fa5b3bd2d58c760d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Tom's Terrain Tools/Example Data/Trees/SampleTree3.prefab using Guid(f139f38e8a844de4fa5b3bd2d58c760d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '99bd1c35152973b48704183ad42d26fb') in 0.097981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Prefab/MaximeBrunoni/BridgesPack/Art/Meshes/Tree.fbx
+  artifactKey: Guid(006fb49c547b45043b6037559e90beb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/MaximeBrunoni/BridgesPack/Art/Meshes/Tree.fbx using Guid(006fb49c547b45043b6037559e90beb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ac9504f77b2410b41e4362380f38abc8') in 0.017110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Prefab/MaximeBrunoni/BridgesPack/Art/Materials/Transp.mat
+  artifactKey: Guid(8f04f002838fb8444ac4c288658cb23f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/MaximeBrunoni/BridgesPack/Art/Materials/Transp.mat using Guid(8f04f002838fb8444ac4c288658cb23f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2e531268c4b73017dce94b87ea34599e') in 0.022787 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Prefab/Mountain Terrain rocks and tree/Materials/Terrain/mountain_terrain_02/mountain_2_Normal.png
+  artifactKey: Guid(3d27af844fac5374e95240d1c9fcd153) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Mountain Terrain rocks and tree/Materials/Terrain/mountain_terrain_02/mountain_2_Normal.png using Guid(3d27af844fac5374e95240d1c9fcd153) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b1bb2fa7ca0ac433185b5f82c1de88c1') in 0.032204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat
+  artifactKey: Guid(8b29aaa3eec7468097ff07adfcf29ac9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat using Guid(8b29aaa3eec7468097ff07adfcf29ac9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1d55d65f33f5e45a7c2a9ebe777e8089') in 0.041166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Prefab/Mountain Terrain rocks and tree/Materials/Trees/tree_02/leaves_02.mat
+  artifactKey: Guid(000f7e652f13e9844a9a43f7f43fb411) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Mountain Terrain rocks and tree/Materials/Trees/tree_02/leaves_02.mat using Guid(000f7e652f13e9844a9a43f7f43fb411) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd983fd202408ba5b211cb03b0870dc31') in 0.017860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Prefab/MaximeBrunoni/BridgesPack/Art/Shaders/DepthFade.shadersubgraph
+  artifactKey: Guid(6efc5398d555a734f86c6134f4f49743) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/MaximeBrunoni/BridgesPack/Art/Shaders/DepthFade.shadersubgraph using Guid(6efc5398d555a734f86c6134f4f49743) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cfe0eeef7e17ab581d7dbf57fcac4229') in 0.030585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Prefab/MaximeBrunoni/BridgesPack/Demo/PostProcessProfile/DemoSceneProfile.asset
+  artifactKey: Guid(98fd5976c898b0a4498f558e990986ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/MaximeBrunoni/BridgesPack/Demo/PostProcessProfile/DemoSceneProfile.asset using Guid(98fd5976c898b0a4498f558e990986ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ec64805590ac6b82bcccc9719456ec54') in 0.030615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Surface.mat
+  artifactKey: Guid(e6b276ec991f467aa14ef1f3cc665993) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Surface.mat using Guid(e6b276ec991f467aa14ef1f3cc665993) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '011c542985a5eac4da330ec703fafe28') in 0.034845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Prefab/MaximeBrunoni/BridgesPack/Demo/Scene/DemoScene_BridgesPack.unity
+  artifactKey: Guid(87885fbba7363e045bd85c381ac25628) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/MaximeBrunoni/BridgesPack/Demo/Scene/DemoScene_BridgesPack.unity using Guid(87885fbba7363e045bd85c381ac25628) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'acb5ddabe53f98e8867546f16ed0b4e3') in 0.014826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Prefab/Tom's Terrain Tools/Unity Terrain Assets/Textures/Grass&Rock-png.png
+  artifactKey: Guid(b2463794d1af4cf4483481497d28ea5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Tom's Terrain Tools/Unity Terrain Assets/Textures/Grass&Rock-png.png using Guid(b2463794d1af4cf4483481497d28ea5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '803c996bac592a96bed66704b33813c6') in 0.016738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Prefab/Tom's Terrain Tools/Unity Terrain Assets/Trees Ambient-Occlusion/Sycamore.prefab
+  artifactKey: Guid(436652e6144c76646bee63bbd953750a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Tom's Terrain Tools/Unity Terrain Assets/Trees Ambient-Occlusion/Sycamore.prefab using Guid(436652e6144c76646bee63bbd953750a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '557a28777b405dc2d9d7bf0b5d5d67d3') in 0.017926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefab/MaximeBrunoni/BridgesPack/Art/Meshes/BridgeRock.fbx
+  artifactKey: Guid(adf81115af100254389734482bab2b62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/MaximeBrunoni/BridgesPack/Art/Meshes/BridgeRock.fbx using Guid(adf81115af100254389734482bab2b62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '961ac650d58ae40ca645d40f894d127d') in 0.028734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Prefab/MaximeBrunoni/BridgesPack/Art/Meshes/SmallBoat.fbx
+  artifactKey: Guid(96fb5f7e612ed0e449c24cb45dbfbdbe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/MaximeBrunoni/BridgesPack/Art/Meshes/SmallBoat.fbx using Guid(96fb5f7e612ed0e449c24cb45dbfbdbe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '65b6ac55969feba62e20513ec71d65d4') in 0.021184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Prefab/Mountain Terrain rocks and tree/Materials/Trees/tree_02/bark_02.mat
+  artifactKey: Guid(0020d698c02b22d459d8c4d7af3bbde4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Mountain Terrain rocks and tree/Materials/Trees/tree_02/bark_02.mat using Guid(0020d698c02b22d459d8c4d7af3bbde4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '803b5c71ce935c90b2496e0c9a811f58') in 0.038788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Prefab/Mountain Terrain rocks and tree/Materials/Terrain/mountain_terrain_02/mountain_2_AlbedoTransparency.png
+  artifactKey: Guid(ed433881edb7ed04e83ad961ba50e09b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Mountain Terrain rocks and tree/Materials/Terrain/mountain_terrain_02/mountain_2_AlbedoTransparency.png using Guid(ed433881edb7ed04e83ad961ba50e09b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3f044e2d79c5dde6f96289b3ef29ae2a') in 0.025041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Prefab/Rocks and Boulders 2/Rocks/Source/Textures/Rock4.tif
+  artifactKey: Guid(092dca7a8192dd548a017b0eb2af8d4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Rocks and Boulders 2/Rocks/Source/Textures/Rock4.tif using Guid(092dca7a8192dd548a017b0eb2af8d4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '45d018256e11375ece7a7203115d1684') in 0.036998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Prefab/Rocks and Boulders 2/Rocks/Source/Textures/Rock4_h.png
+  artifactKey: Guid(a639ed01446aa774992a6d74a1260740) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Rocks and Boulders 2/Rocks/Source/Textures/Rock4_h.png using Guid(a639ed01446aa774992a6d74a1260740) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd282f9d5f0feb517a0451c7418e4fd2a') in 0.053147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Prefab/Rocks and Boulders 2/Rocks/Source/Models/Rock1A.fbx
+  artifactKey: Guid(dfb9706df9ac8264ebf1e58976096256) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Rocks and Boulders 2/Rocks/Source/Models/Rock1A.fbx using Guid(dfb9706df9ac8264ebf1e58976096256) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '150a4813773d25674943ceca2d4d2afc') in 0.031154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Prefab/Rocks and Boulders 2/Rocks/Source/Textures/Rock2_snow.tif
+  artifactKey: Guid(b7a96b9d5a1c9ff49a691b1ae2e98959) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Rocks and Boulders 2/Rocks/Source/Textures/Rock2_snow.tif using Guid(b7a96b9d5a1c9ff49a691b1ae2e98959) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6d8b02f196a72467e3e46214607e3cc1') in 0.034488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Prefab/Rocks and Boulders 2/Rocks/Source/Textures/Rock4_ao.png
+  artifactKey: Guid(4253a798b9e853147adf917a51a2b97a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Rocks and Boulders 2/Rocks/Source/Textures/Rock4_ao.png using Guid(4253a798b9e853147adf917a51a2b97a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '20abc9fb26b0dcd026683713e46f263d') in 0.033652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefab/Rocks and Boulders 2/Rocks/Source/Textures/Rock4_nmp.tif
+  artifactKey: Guid(2a0dc6caeaf9cb64dae4372302735b69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Rocks and Boulders 2/Rocks/Source/Textures/Rock4_nmp.tif using Guid(2a0dc6caeaf9cb64dae4372302735b69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '33ff52cbf995b67df4d8d5b20af0247e') in 0.030211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Prefab/Rocks and Boulders 2/Rocks/Source/Textures/Rock3_ms.png
+  artifactKey: Guid(e31eafdbd8a85f34ab9dcd2fc9021997) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Rocks and Boulders 2/Rocks/Source/Textures/Rock3_ms.png using Guid(e31eafdbd8a85f34ab9dcd2fc9021997) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '128788d92c6d9429fb9878655f31b5de') in 0.036585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Prefab/MaximeBrunoni/BridgesPack/Art/Shaders/Water.shadergraph
+  artifactKey: Guid(5f4434dd1ddfc4745bf916e0e4f4a43a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/MaximeBrunoni/BridgesPack/Art/Shaders/Water.shadergraph using Guid(5f4434dd1ddfc4745bf916e0e4f4a43a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '01f96ece649c9c4e0403568389565fd4') in 0.018909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Prefab/Rocks and Boulders 2/Rocks/Source/Textures/Rock3_ao.png
+  artifactKey: Guid(11cb6765864eda847a33cdceac63bbc7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Rocks and Boulders 2/Rocks/Source/Textures/Rock3_ao.png using Guid(11cb6765864eda847a33cdceac63bbc7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c1f1c2262cdaf22dab768a215d4bd78a') in 0.024670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Prefab/Tom's Terrain Tools/Unity Terrain Assets/Trees Ambient-Occlusion/ThinTree.prefab
+  artifactKey: Guid(c0752fb98a21a7f4ab4ffe7c291effbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Tom's Terrain Tools/Unity Terrain Assets/Trees Ambient-Occlusion/ThinTree.prefab using Guid(c0752fb98a21a7f4ab4ffe7c291effbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cbf33c3123cfb2a5baa47788573237d7') in 0.030238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Prefab/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.XML
+  artifactKey: Guid(2e2c6224d345d9249acfa6e8ef40bb2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.XML using Guid(2e2c6224d345d9249acfa6e8ef40bb2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '564cf7def856baf2050ef9c237222559') in 0.021683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Prefab/Charttyp/Stylized fantasy pagan village/Terrain/Ground_dirt_1_grass_1.terrainlayer
+  artifactKey: Guid(87fe837065b500541b34632497beb088) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Charttyp/Stylized fantasy pagan village/Terrain/Ground_dirt_1_grass_1.terrainlayer using Guid(87fe837065b500541b34632497beb088) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '115f43cd9aed36ef1b27f1d4e959f84f') in 0.023816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefab/Rocks and Boulders 2/Rocks/Source/Textures/Rock3.tif
+  artifactKey: Guid(27cfd5114f148ff49acff242847ce022) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Rocks and Boulders 2/Rocks/Source/Textures/Rock3.tif using Guid(27cfd5114f148ff49acff242847ce022) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'acaea2728418020e9864a620d7308ca8') in 0.027143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Prefab/Rocks and Boulders 2/Rocks/Source/Textures/Rockdetail4_nmp.tif
+  artifactKey: Guid(2c7455542485cce45988e19384b08d01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Rocks and Boulders 2/Rocks/Source/Textures/Rockdetail4_nmp.tif using Guid(2c7455542485cce45988e19384b08d01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5c751ae3d60c64dea1b33f6157848bec') in 0.023139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Prefab/Tom's Terrain Tools/Unity Terrain Assets/Trees Ambient-Occlusion/Materials/scotspinetypea-pine needles.mat
+  artifactKey: Guid(00cdedc1bd1113061100b7a844295342) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Tom's Terrain Tools/Unity Terrain Assets/Trees Ambient-Occlusion/Materials/scotspinetypea-pine needles.mat using Guid(00cdedc1bd1113061100b7a844295342) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5d2da37dd1135f1169f579ded1cd9218') in 0.037420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Prefab/Rocks and Boulders 2/Rocks/Source/Textures/Rockdetail9_nmp.tif
+  artifactKey: Guid(40d7e466eee8bf94887ff82c1e1255e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Rocks and Boulders 2/Rocks/Source/Textures/Rockdetail9_nmp.tif using Guid(40d7e466eee8bf94887ff82c1e1255e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8667df38bd04d7c73865c0c367d88f67') in 0.026971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefab/Tom's Terrain Tools/Unity Terrain Assets/Textures/Debug/debug_blue.png
+  artifactKey: Guid(d8070f366daa815438bcab25db036957) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Tom's Terrain Tools/Unity Terrain Assets/Textures/Debug/debug_blue.png using Guid(d8070f366daa815438bcab25db036957) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '155207212c5d889d4e0cb471548694e3') in 0.022269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Prefab/Tom's Terrain Tools/Example Data/Trees/SampleTree1_Textures/diffuse.png
+  artifactKey: Guid(8ca1c38497ba1c04bb67dca62701a5b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Tom's Terrain Tools/Example Data/Trees/SampleTree1_Textures/diffuse.png using Guid(8ca1c38497ba1c04bb67dca62701a5b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd847bce9e0cbf0172fa36b4f5a70a5c4') in 0.020023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Prefab/Rocks and Boulders 2/Rocks/Source/Textures/Rockdetail7.tif
+  artifactKey: Guid(4d45e1355977ee44ebffdf905fe30d27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Rocks and Boulders 2/Rocks/Source/Textures/Rockdetail7.tif using Guid(4d45e1355977ee44ebffdf905fe30d27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '01f25d09fb8242642ab1cddba781798e') in 0.023390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Prefab/Tom's Terrain Tools/Unity Terrain Assets/Textures/Debug/debug_magenta.png
+  artifactKey: Guid(ef1f34ebaf1eac344aecb1f942829846) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Tom's Terrain Tools/Unity Terrain Assets/Textures/Debug/debug_magenta.png using Guid(ef1f34ebaf1eac344aecb1f942829846) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b7d93f39f44389db6d37e4bc2c9a5d8c') in 0.022054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Prefab/Rocks and Boulders 2/Rocks/Source/Textures/Rockdetail11_nmp.tif
+  artifactKey: Guid(3dff83e381c4c7742a668b4abee84f57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Rocks and Boulders 2/Rocks/Source/Textures/Rockdetail11_nmp.tif using Guid(3dff83e381c4c7742a668b4abee84f57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9181590c84a40b6deb99d86b5bcfb47b') in 0.025255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Prefab/Tom's Terrain Tools/Example Data/Trees/SampleTree1_Textures/translucency_gloss.png
+  artifactKey: Guid(15a127679aebb2e40abe9547c40e34f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Tom's Terrain Tools/Example Data/Trees/SampleTree1_Textures/translucency_gloss.png using Guid(15a127679aebb2e40abe9547c40e34f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'aea5f649ec5a0d313e4fca0c9ef355f6') in 0.020698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefab/Tom's Terrain Tools/Unity Terrain Assets/Bushes/Model/Bush5.fbx
+  artifactKey: Guid(0289fdf7bd118bca11002b7b44295342) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Tom's Terrain Tools/Unity Terrain Assets/Bushes/Model/Bush5.fbx using Guid(0289fdf7bd118bca11002b7b44295342) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e8eed3ef42af1e8e1340ae7afb3c6a92') in 0.017514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Prefab/Tom's Terrain Tools/Unity Terrain Assets/Textures/Debug/debug_green.png
+  artifactKey: Guid(21885ceb2492d504f9d621148be3eb58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Tom's Terrain Tools/Unity Terrain Assets/Textures/Debug/debug_green.png using Guid(21885ceb2492d504f9d621148be3eb58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e578ffc98c137467b6582a44c9f2d97a') in 0.025584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Prefab/Charttyp/Stylized fantasy pagan village/Texture/Ground_dirt_1.png
+  artifactKey: Guid(44c0b5e4806810d48acfc62b5e8beafa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Charttyp/Stylized fantasy pagan village/Texture/Ground_dirt_1.png using Guid(44c0b5e4806810d48acfc62b5e8beafa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5a69631aa256883c5247ef50c0fd15b6') in 0.020345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Prefab/Mountain Terrain rocks and tree/3d model/Rock/rock_set_02.fbx
+  artifactKey: Guid(a622235817abd68429dbbed4ed1d8ff1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Mountain Terrain rocks and tree/3d model/Rock/rock_set_02.fbx using Guid(a622235817abd68429dbbed4ed1d8ff1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '78b38218cd5dd87dcddf6aa3b3705fda') in 0.019158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Prefab/Tom's Terrain Tools/Unity Terrain Assets/Textures/Grass (Meadows2)-png.png
+  artifactKey: Guid(61bfcb6ade717fe40aefca9b43a10739) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Tom's Terrain Tools/Unity Terrain Assets/Textures/Grass (Meadows2)-png.png using Guid(61bfcb6ade717fe40aefca9b43a10739) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1e7640751102b527f420fd89f3d263c0') in 0.031535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Light to Dark Green - Vertical.asset
+  artifactKey: Guid(5cf8ae092ca54931b443bec5148f3c59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Light to Dark Green - Vertical.asset using Guid(5cf8ae092ca54931b443bec5148f3c59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f1ef302a01962875fe94b9be7d86f7b3') in 0.021134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset
+  artifactKey: Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset using Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4846dc61c854c4d35fa9eb227fbe4457') in 0.047441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Prefab/Tom's Terrain Tools/Unity Terrain Assets/Trees Ambient-Occlusion/Textures/AlderBark.PSD
+  artifactKey: Guid(061b881dbd110e38a00062d88f962b59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Tom's Terrain Tools/Unity Terrain Assets/Trees Ambient-Occlusion/Textures/AlderBark.PSD using Guid(061b881dbd110e38a00062d88f962b59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cd9fff675c18e8daf52a304795b2b780') in 0.019238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Prefab/MaximeBrunoni/BridgesPack/Art/Textures/SmallBoat/small_boat_01_MetallicSmoothness.png
+  artifactKey: Guid(4fb96107dddd23f48975c9f726ba800a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/MaximeBrunoni/BridgesPack/Art/Textures/SmallBoat/small_boat_01_MetallicSmoothness.png using Guid(4fb96107dddd23f48975c9f726ba800a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6866886cb033b760def7148f8ca4cb6c') in 0.047365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Prefab/MaximeBrunoni/BridgesPack/Art/Textures/BridgeHanging/bridge_hanging_01_AlbedoTransparency.png
+  artifactKey: Guid(8a3782bd0202b6348a49e41f9306506a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/MaximeBrunoni/BridgesPack/Art/Textures/BridgeHanging/bridge_hanging_01_AlbedoTransparency.png using Guid(8a3782bd0202b6348a49e41f9306506a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '739111761eb616a2acfe633a29449087') in 0.036865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Prefab/Rocks and Boulders 2/Rocks/Source/Materials/Unity 5/Rock4.mat
+  artifactKey: Guid(4f55ff57442728d46a34aa4aea8cb82c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Rocks and Boulders 2/Rocks/Source/Materials/Unity 5/Rock4.mat using Guid(4f55ff57442728d46a34aa4aea8cb82c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '691c2bae97c5b75ead9937f9967679eb') in 0.042027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefab/Rocks and Boulders 2/Rocks/Source/Materials/Unity 5/Rock1_snow.mat
+  artifactKey: Guid(01608c72af8878540af104e9e85c948a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Rocks and Boulders 2/Rocks/Source/Materials/Unity 5/Rock1_snow.mat using Guid(01608c72af8878540af104e9e85c948a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2ba6a81f7561da97d9fbb29be2e33fa8') in 0.059100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Prefab/Tom's Terrain Tools/Unity Terrain Assets/Trees Ambient-Occlusion/Textures/MimosaBark.PSD
+  artifactKey: Guid(2ab51c8ecd118f12a000e6888f962b59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Tom's Terrain Tools/Unity Terrain Assets/Trees Ambient-Occlusion/Textures/MimosaBark.PSD using Guid(2ab51c8ecd118f12a000e6888f962b59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bae3371fc5b0410d7773a3187836eea0') in 0.021794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Prefab/MaximeBrunoni/BridgesPack/Art/Textures/SmallBoat/small_boat_01_Normal.png
+  artifactKey: Guid(8e172ccf3e6cc9e46a4f2314bf38e18e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/MaximeBrunoni/BridgesPack/Art/Textures/SmallBoat/small_boat_01_Normal.png using Guid(8e172ccf3e6cc9e46a4f2314bf38e18e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b1a4da43dc51f6ffa65e62050de302ad') in 0.043423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Prefab/MaximeBrunoni/BridgesPack/Art/Textures/Pedestal/pedestal_Albedo.png
+  artifactKey: Guid(085e646613f74014987d9b8e8decf590) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/MaximeBrunoni/BridgesPack/Art/Textures/Pedestal/pedestal_Albedo.png using Guid(085e646613f74014987d9b8e8decf590) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4ab8c5337cda57b85e300107c70527fa') in 0.021150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Prefab/MaximeBrunoni/BridgesPack/Art/Textures/Tree/trunk_01_Normal.png
+  artifactKey: Guid(da48184a4a5c81240acbd9a1d29d2c2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/MaximeBrunoni/BridgesPack/Art/Textures/Tree/trunk_01_Normal.png using Guid(da48184a4a5c81240acbd9a1d29d2c2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd12c9beadde5914e666efd577032f5a9') in 0.037859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Prefab/Plugins/Demigiant/DOTween/Editor/Imgs/Footer.png
+  artifactKey: Guid(7051dba417b3d53409f2918f1ea4938d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Plugins/Demigiant/DOTween/Editor/Imgs/Footer.png using Guid(7051dba417b3d53409f2918f1ea4938d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd36a6d279dfee2d3b97f195755f96ed9') in 0.039719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Prefab/Tom's Terrain Tools/Unity Terrain Assets/Trees Ambient-Occlusion/Models/ScotsPineTypeA.fbx
+  artifactKey: Guid(43202a31bd1113061100b7a844295342) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Tom's Terrain Tools/Unity Terrain Assets/Trees Ambient-Occlusion/Models/ScotsPineTypeA.fbx using Guid(43202a31bd1113061100b7a844295342) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '71dd4ecb7148f40d5557231dfe86d684') in 0.024813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Prefab/MaximeBrunoni/BridgesPack/Art/Textures/Pedestal/pedestal_AO.png
+  artifactKey: Guid(c8744aecfb874db4a93ba15389abebc5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/MaximeBrunoni/BridgesPack/Art/Textures/Pedestal/pedestal_AO.png using Guid(c8744aecfb874db4a93ba15389abebc5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e47678b64e6f5299ecaba870a7e4707e') in 0.015587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Prefab/Tom's Terrain Tools/Unity Terrain Assets/Trees Ambient-Occlusion/Materials/scotspinetypeb-pinetrunk.mat
+  artifactKey: Guid(5edc9249abd4968d4368a36b96fb6b62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Tom's Terrain Tools/Unity Terrain Assets/Trees Ambient-Occlusion/Materials/scotspinetypeb-pinetrunk.mat using Guid(5edc9249abd4968d4368a36b96fb6b62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cf8be752d8cb2749dc6ffbf986c6640a') in 0.025183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Prefab/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile_Atlas_Specular.tga
+  artifactKey: Guid(45cab4c9b31009748999eec1556926b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile_Atlas_Specular.tga using Guid(45cab4c9b31009748999eec1556926b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3cab6a85fc2c4fa35ddf9de5ed6709d2') in 0.030213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Prefab/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas_Specular.tga
+  artifactKey: Guid(6af82a665aaf44c41874a383a4225c48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas_Specular.tga using Guid(6af82a665aaf44c41874a383a4225c48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fc83bdb883ae98a26929bdeb4a716cd1') in 0.025711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Prefab/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop_Atlas_Normal.tga
+  artifactKey: Guid(855926cb3532dc14c87b1e6d589334b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop_Atlas_Normal.tga using Guid(855926cb3532dc14c87b1e6d589334b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0a6c7a6b16c1b6028a5e974c0d57d512') in 0.026418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Prefab/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop_Atlas_Specular.tga
+  artifactKey: Guid(d954891cb9e58434d86e01d839ed4997) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop_Atlas_Specular.tga using Guid(d954891cb9e58434d86e01d839ed4997) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e1d9310ab04aa9e475b7840b9d805e08') in 0.025107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Prefab/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Palm/PalmBark_Detail_Normal.tga
+  artifactKey: Guid(bf4c945c1f5a9b74bb15ab0c7f238617) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Palm/PalmBark_Detail_Normal.tga using Guid(bf4c945c1f5a9b74bb15ab0c7f238617) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '245965cb35c83619211ba8b587d332bc') in 0.015979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Prefab/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/Cap_01_Normal.tga
+  artifactKey: Guid(55e2334423fefa34fb4916f6780413d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/Cap_01_Normal.tga using Guid(55e2334423fefa34fb4916f6780413d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9835b9619c621dce7e72c1723bea1e89') in 0.026067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Prefab/Rocks and Boulders 2/Rocks/Source/Materials/Legacy/Rock4_snow.mat
+  artifactKey: Guid(aa26ccc3e8258414d82817dde5859b98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Rocks and Boulders 2/Rocks/Source/Materials/Legacy/Rock4_snow.mat using Guid(aa26ccc3e8258414d82817dde5859b98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a1bea11e8f3be2f0c773c86c4ebc2103') in 0.034278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefab/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas_Billboards.tga
+  artifactKey: Guid(a9c35d1eec67849419bd87d162ba90a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas_Billboards.tga using Guid(a9c35d1eec67849419bd87d162ba90a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6ad4a13909daa14c97b3aab61f90b46c') in 0.028012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Prefab/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop_Atlas_Normal.tga
+  artifactKey: Guid(b552931caa1b3ea418b9ba90cbd1333e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop_Atlas_Normal.tga using Guid(b552931caa1b3ea418b9ba90cbd1333e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cc9cb156d6e36c467edf24db1931d255') in 0.025751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Prefab/Rocks and Boulders 2/Rocks/Source/Materials/Unity 5/Rock3.mat
+  artifactKey: Guid(4ec38644468fc2b47b9a0a6515c38542) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Rocks and Boulders 2/Rocks/Source/Materials/Unity 5/Rock3.mat using Guid(4ec38644468fc2b47b9a0a6515c38542) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '41efc57c83f5942b9ec246f89227aa20') in 0.039749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Prefab/Rocks and Boulders 2/Rocks/Source/Materials/Legacy/Rock2.mat
+  artifactKey: Guid(456f16122b86f5545a10f16fe6d9a121) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Rocks and Boulders 2/Rocks/Source/Materials/Legacy/Rock2.mat using Guid(456f16122b86f5545a10f16fe6d9a121) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '30a8b0e0974a73ffb09301f5a5602fac') in 0.034535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Prefab/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Needles_Dekstop_Spec.tga
+  artifactKey: Guid(897461e3c2fa9d84d8bd48bf1b00a950) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Needles_Dekstop_Spec.tga using Guid(897461e3c2fa9d84d8bd48bf1b00a950) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ef96d78cc117520fb616181312f8e45f') in 0.021532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Prefab/MaximeBrunoni/BridgesPack/Art/Textures/Tree/foliage_01.png
+  artifactKey: Guid(199a0f7034c7eb846937b775474c2c10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/MaximeBrunoni/BridgesPack/Art/Textures/Tree/foliage_01.png using Guid(199a0f7034c7eb846937b775474c2c10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b708f0d80090d92be3c0aa455be469cd') in 0.019699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Prefab/Rocks and Boulders 2/Rocks/Source/Materials/Unity 5/Rock2.mat
+  artifactKey: Guid(520e490b117f8cc4bbfd41ec92292838) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Rocks and Boulders 2/Rocks/Source/Materials/Unity 5/Rock2.mat using Guid(520e490b117f8cc4bbfd41ec92292838) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '52e31cbbb6a46b7b2f102260cca7b193') in 0.039144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Diagonal (Color).jpg
+  artifactKey: Guid(2ce5c55e85304b819a1826ecbc839aa5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Diagonal (Color).jpg using Guid(2ce5c55e85304b819a1826ecbc839aa5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '19760de19cf246e5a32c9de0cd8fde29') in 0.016377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Prefab/Tom's Terrain Tools/Unity Terrain Assets/Textures/Debug/debug_black.png
+  artifactKey: Guid(7a659dd2171d699488bebb541ec450d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Tom's Terrain Tools/Unity Terrain Assets/Textures/Debug/debug_black.png using Guid(7a659dd2171d699488bebb541ec450d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd5da544550ce700f325190d9835d7d36') in 0.025136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Prefab/Rocks and Boulders 2/Rocks/Prefabs_snow/Rock1_grup4.prefab
+  artifactKey: Guid(bf6a1a77eb8dd9e4081b94f6b53896b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Rocks and Boulders 2/Rocks/Prefabs_snow/Rock1_grup4.prefab using Guid(bf6a1a77eb8dd9e4081b94f6b53896b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'afd10a333e9045246e754854725a8d7f') in 0.020930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Prefab/Rocks and Boulders 2/Rocks/Source/Textures/Rock2_nmp.tif
+  artifactKey: Guid(3a821c28b70b2b447ab3e66e3a2229e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Rocks and Boulders 2/Rocks/Source/Textures/Rock2_nmp.tif using Guid(3a821c28b70b2b447ab3e66e3a2229e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0328e92abdc25b5c5557e60295bce0c1') in 0.024335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Prefab/Tom's Terrain Tools/Unity Terrain Assets/Bushes/Materials/bush7.mat
+  artifactKey: Guid(bc593cc7bd111f89a00081698f962b59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Tom's Terrain Tools/Unity Terrain Assets/Bushes/Materials/bush7.mat using Guid(bc593cc7bd111f89a00081698f962b59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9d7da37caa1ef37d2561379b96423f16') in 0.011959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Prefab/Tom's Terrain Tools/2DTools/Scenes/scene_2DTools_Demo1Settings.lighting
+  artifactKey: Guid(91e77e82249fb2a46840cd7369e4d256) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Tom's Terrain Tools/2DTools/Scenes/scene_2DTools_Demo1Settings.lighting using Guid(91e77e82249fb2a46840cd7369e4d256) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '5f90b23403509616accc1b40509c2e9e') in 0.031993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Prefab/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/Cap_02.tga
+  artifactKey: Guid(ee07ea8cb1a00c844b4048d37dcfe712) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/Cap_02.tga using Guid(ee07ea8cb1a00c844b4048d37dcfe712) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd3ebacc076aacc2288921a86f28d8f6a') in 0.027901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Prefab/MaximeBrunoni/BridgesPack/Art/Meshes/Well.fbx
+  artifactKey: Guid(a552b77647ed64149a53b1c211d3e075) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/MaximeBrunoni/BridgesPack/Art/Meshes/Well.fbx using Guid(a552b77647ed64149a53b1c211d3e075) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fd636783efcac100b26ebc3d2176cf44') in 0.018898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Prefab/Rocks and Boulders 2/Rocks/Source/Textures/Rockdetail10_nmp.tif
+  artifactKey: Guid(7f12407c374d40e49899f9cab23e5cc0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Rocks and Boulders 2/Rocks/Source/Textures/Rockdetail10_nmp.tif using Guid(7f12407c374d40e49899f9cab23e5cc0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '82cd605ad6d2aeb14c53a09922fcd70c') in 0.025848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Prefab/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Needles_Desktop.tga
+  artifactKey: Guid(34d2758af9e0a2b4690fbcfcad0285d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Needles_Desktop.tga using Guid(34d2758af9e0a2b4690fbcfcad0285d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0e2092ee5daab23b6899366c322b0d4f') in 0.026009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Prefab/Tom's Terrain Tools/Unity Terrain Assets/Trees Ambient-Occlusion/Models/Alder.fbx
+  artifactKey: Guid(25fa881dbd110e38a00062d88f962b59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Tom's Terrain Tools/Unity Terrain Assets/Trees Ambient-Occlusion/Models/Alder.fbx using Guid(25fa881dbd110e38a00062d88f962b59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '164c04cc804c4c49ddc18d0544986dfd') in 0.018451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Prefab/Charttyp/Stylized fantasy pagan village/Texture/Texture_5_2k.png
+  artifactKey: Guid(14ad4790d4a4e244e9e9e66958ef00c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefab/Charttyp/Stylized fantasy pagan village/Texture/Texture_5_2k.png using Guid(14ad4790d4a4e244e9e9e66958ef00c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5f47e36421e56d58b1e9e15972d918e0') in 0.030378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 17570.464643 seconds.
+  path: Assets/Prefab/ScanZoneVisual.prefab
+  artifactKey: Guid(189e77bacb2e4ee4fbb3b543a78a54e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/ScanZoneVisual.prefab using Guid(189e77bacb2e4ee4fbb3b543a78a54e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '431b3fe9d19ee0b2bf61e4cc584bf537') in 0.503232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 586.764168 seconds.
+  path: Assets/Script/Base/Scaner/ScannerArea.cs
+  artifactKey: Guid(bec36fd4c65e56b41b6dee27174574a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Script/Base/Scaner/ScannerArea.cs using Guid(bec36fd4c65e56b41b6dee27174574a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2f84e03dec15ec299ed564ed0bf72fe2') in 0.034110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Script/Bot/Builder.cs
+  artifactKey: Guid(349834daf1f6ec546afec4b4750a2a15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Script/Bot/Builder.cs using Guid(349834daf1f6ec546afec4b4750a2a15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b1adfaf5f3d69cd838eb97ed9624ff81') in 0.017847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.027 seconds
+Refreshing native plugins compatible for Editor in 5.10 ms, found 7 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.287 seconds
+Domain Reload Profiling: 2311ms
+	BeginReloadAssembly (347ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (155ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (583ms)
+		LoadAssemblies (649ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (66ms)
+			TypeCache.Refresh (24ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (31ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1287ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (409ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (254ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 4.80 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5903 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (379.0 KB). Loaded Objects now: 6612.
+Memory consumption went from 210.2 MB to 209.8 MB.
+Total: 4.267900 ms (FindLiveObjects: 0.562800 ms CreateObjectMapping: 0.313900 ms MarkObjects: 3.141000 ms  DeleteObjects: 0.249100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
